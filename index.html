@@ -164,6 +164,8 @@
     <!--==========================
       Contact Section
     ============================-->
+
+    <!-- Begin Mailchimp Signup Form -->
     <section id="contact" class="wow fadeInUp" style="background-color: #4d4d4d;">
       <div class="container">
         <div class="section-header">
@@ -173,18 +175,20 @@
 
       <div class="container">
         <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+
+          <form action="https://dramandamendonca.us4.list-manage.com/subscribe/post" method="POST">
+            <input type="hidden" name="u" value="944be329a69fdff0fa504274d">
+            <input type="hidden" name="id" value="0b64bd5ed5">
             
+
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nome completo" />
+                <input type="text" name="MERGE1" id="MERGE1" class="form-control" placeholder="Nome completo" />
                 <div class="validation"></div>
               </div>
 
               <div class="form-group col-md-6">
-                <input type="text" name="email" class="form-control" id="email" placeholder="E-mail" />
+                <input type="text" type="email" name="MERGE0" id="MERGE0" class="form-control" placeholder="E-mail" />
                 <div class="validation"></div>
               </div>
             </div>
@@ -192,7 +196,7 @@
             <div class="form-row">
               <div class="form-group col-md-4">
                 <div class="form-group">
-                  <select class="form-control" id="sel1">
+                  <select class="form-control" id="MERGE2" name="MERGE2">
                     <option hidden>Formação</option>
                     <option>Estética</option>
                     <option>Biomedicina</option>
@@ -205,22 +209,30 @@
               </div>
 
               <div class="form-group col-md-4">
-                <input onkeyup="mascara( this );" class="form-control" id="whatsapp" placeholder="WhatsApp" />
+                <input onkeyup="mascara( this );" class="form-control" name="MERGE4" id="MERGE4" placeholder="WhatsApp" />
                 <div class="validation"></div>
               </div>
 
               <div class="form-group col-md-4">
-                <input type="instagram" class="form-control"  id="instagram" placeholder="Instagram" />
+                <input type="instagram" class="form-control" name="MERGE3" id="MERGE3" placeholder="Instagram" />
                 <div class="validation"></div>
               </div>
             </div>
 
-            <div class="text-center"><button style="margin-top: 15px;" type="submit"><b>Enviar</b></button></div>
-          </form>
-        </div>
+            <div class="text-center"><button style="margin-top: 15px;" name="submit" type="submit"><b>Enviar</b></button></div>
 
+            <input type="hidden" name="ht" value="c00dba7946f44a59746dd28c123c371b62723ebd:MTU4MDg3MDYyNC45NDY2">
+            <input type="hidden" name="mc_signupsource" value="hosted">
+          </form>
+
+        </div>
       </div>
-    </section><!-- #contact -->
+    </section>
+
+
+
+
+
 
 
   </main>
@@ -245,8 +257,8 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="lib/sticky/sticky.js"></script>
-  <script src="lib/typed.js"></script>
   <script src="lib/phone/phone.js"></script>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
