@@ -162,15 +162,9 @@ jQuery(document).ready(function ($) {
     }
   });
 
-  //TYPED TEXT
-  var typed = new Typed('.typed-words', {
-    strings: ["BLADE CLEAN"],
-    typeSpeed: 80,
-    backSpeed: 80,
-    backDelay: 4000,
-    startDelay: 1000,
-    loop: true,
-    showCursor: true
+  $( document ).on( 'click', 'img#mainvideo', function() {
+    var video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
+    $(this).replaceWith(video);
   });
 
 });
