@@ -231,6 +231,24 @@ h6 {
   color: rgb(253,147,88);
 }
 
+#about .btn-licenca {
+  font-family: "Raleway", sans-serif;
+  /*font-size: 15px;*/
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  /*padding: 10px 32px;*/
+  padding: 9px 23px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: rgb(253,147,88);
+  border: 1px solid rgb(253,147,88);
+  background: none;
+  color: rgb(238,87,88);
+}
+
 #intro .intro-content .btn-get-started {
   background: #0c2e8a;
   border: 2px solid #0c2e8a;
